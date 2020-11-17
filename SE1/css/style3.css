@@ -1,0 +1,17 @@
+.Lg{
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.Lu{
+    color: white;
+    font-weight: bolder;
+}
+
+.Luu{
+    color: white;
+}
+
+.light a:link{
+    color:white;
+}

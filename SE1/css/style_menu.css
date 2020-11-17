@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headbg {
+    background-color: rgba(222, 184, 135, 0.815);
+    padding: 2px;
+}
+
+.carousel-item {
+    height: 400px;
+
+}
+
+.hh {
+    height: 300px;
+}
+.menu {
+    border: 2px solid black;
+    border-radius: 20px;
+    /* margin: 40px 40px; */
+    padding: 20px;
+    background:url("css/bg4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.item {
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    /* background-color: rgb(253, 192, 59); */
+    background-color: rgba(231, 163, 36, 0.521);
+    font-family: 'Dancing Script', cursive;
+}
+
+.item img:hover {
+    height: 210px;
+    width: 210px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    margin: auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    transition: 0.4s;
+    border: 2px solid white;
+}
+
+.btn {
+    float: right;
+    padding: 5px;
+    background-color: red;
+    font-size: large;
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.h{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+.food_desc{
+    font-family: 'Piazzolla', serif;
+    font-weight: bolder;
+}
+.food_pr{
+    font-family: 'Piazzolla', serif;
+    font-weight: bolder;
+}
